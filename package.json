@@ -1,0 +1,15 @@
+{
+  "name": "notas",
+  "version": "1.0.0",
+  "description": "aplicacion para crear notas en node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Alexander Londoño Espejo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
