@@ -9,7 +9,10 @@
   "author": "Alexander Londoño Espejo",
   "license": "ISC",
   "devDependencies": {
+    "body-parser": "^1.15.0",
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "supertest": "^1.1.0"
   }
 }
