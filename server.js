@@ -13,13 +13,13 @@ var server = express();
 /**
 * Middleware
 */
-server.use(bodyParser.json('application/json'))
+server.use(bodyParser.json('application/json'));
 
 /**
 * Rutas
 */
-var notas = require ('./lib/notas');
-server.use.notas;
+var notas = require('./lib/notas');
+server.use(notas);
 
 /**
 * Poner en marcha nuestro server
